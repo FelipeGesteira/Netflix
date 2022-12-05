@@ -89,6 +89,11 @@ body #blur #cabecalho {
     cursor: pointer;    
 }
 
+#blur #cabecalho #botoes-cabecalho #entrar:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 #blur #cabecalho #botoes-cabecalho .botao-cabecalho {
     margin-right: 30px;
 
@@ -98,6 +103,11 @@ body #blur #cabecalho {
     height: 7vh;
     width: 10vw;
     margin-left: 30px;
+}
+
+#blur #cabecalho #imagem-logo:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
 }
 
 .botoes {

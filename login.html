@@ -6,30 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style-login.css">
+    <link rel="stylesheet" href="./stylelogin.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Document</title>
+    <title>Netflix - Login</title>
 </head>
-
-<body>
+<div id="background"> 
     <div id="blur">
         <header id="cabecalho">
-            <img src="./img/Netflix_2015_logo.svg.png" id="imagem-logo">
+            <a href="./index.html"><img src="./img/Netflix_2015_logo.svg.png" id="imagem-logo"></a>
         </header>
+        <div id="login">
         <div id="container">
             <h1 id="container_titulo">Entrar</h1>
             <input type="email" for="email" class="inp-login-pass" placeholder="Email ou número de telefone">
-            <input type="password" for="password" class="inp-login-pass" placeholder="Senha">
+            <input type="password" for="password" id="inp-pass" class="inp-login-pass" placeholder="Senha">
             <button id="button-login">Entrar</button>
-            <div>
-                <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
-                <label for="subscribeNews"> Subscreva a newsletter? </ label>
+            <div id="checkbox_help">
+                <div>
+                    <input type="checkbox" id="lembresedemim" name="subscribe" value="newsletter">
+                    <label for="lembresedemim"> Lembre-se de mim</label>
+                </div>
+                <a href="#" id="a_ajuda">Precisa de ajuda?</a>
             </div>
-            <a href="#" id="a_ajuda">Precisa de ajuda?</a>
             <p id="p_novo-por-aqui">Novo por aqui? <a href="#" id="a_assinatura">Assine agora.</a></p>
             <p id="p_aviso">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#" id="a_saiba-mais">Saiba mais.</a></p>
         </div>
-</body>
+    </div>
+    </div>
+    <footer>
+        <div id="side-footer">
+            <h1 id="titulo-footer">Dúvidas? Ligue 0800 591 8942</h1>
+            <ul class="ul-lista-footer">
+                <li class="lista-footer">
+                    <a href="#" class="item_lista-footer"><p class="p-footer">Perguntas frequentes</p></a>
+                    <a href="#" class="item_lista-footer"><p class="p-footer">Preferências de cookies</p ></a>
 
+                </li>
+                <li class="lista-footer">
+                <a href="#" class="item_lista-footer"><p class="p-footer">Central de ajuda</p><a>
+                    <a href="#" class="item_lista-footer"><p class="p-footer">Informações corporativas</p><a>
+
+                        </li>
+                        <li class="lista-footer">
+                        <a href="#" class="item_lista-footer"><p class="p-footer">Termos de uso</p></a>
+
+                    </li>
+                    <li class="lista-footer">
+                    <a href="#" class="item_lista-footer"><p class="p-footer">Privacidade</p></a>
+
+                </li>        
+            </ul>
+            <button class="botao-cabecalho-footer"><ion-icon name="globe-outline" id="icone-globo"></ion-icon>Português<ion-icon name="caret-down-sharp"></ion-icon></button>
+           <p id="footer-netflix">Netflix Brasil</p>
+        </div>
+    </div>
+</footer>
+</div>
+</body>
 </html>

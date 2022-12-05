@@ -1,0 +1,182 @@
+
+
+#background {
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/585f466c-653d-46f4-af30-bbf18e0aafe9/BR-pt-20221128-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#background #cabecalho {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#background #cabecalho #imagem-logo {
+    height: 7vh;
+    width: 12vw;
+    margin-left: 15px;
+}
+
+#background #cabecalho #imagem-logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#container {
+    background-color: rgba(0,0,0,.80);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: white;
+    width: 450px;
+    height: 570px;
+    box-sizing: border-box;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+#container #container_titulo {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px
+}
+
+#container .inp-login-pass {
+    background: #333;
+    outline: none;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+}
+
+#container #inp-pass {
+    margin: 15px 0 35px 0;
+}
+
+#container #button-login {
+    background: #e50914;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 10px;
+    width: 98%;
+    cursor: pointer;
+}
+
+
+#checkbox_help {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-between;
+    color: #b3b3b3
+}
+
+#checkbox_help #lembresedemim {
+    background-color: #b3b3b3;
+}
+
+#checkbox_help #a_ajuda {
+    text-decoration: none;
+    color: #b3b3b3
+}
+
+#container #p_novo-por-aqui {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 100px 0 15px 0
+}
+
+#container #p_novo-por-aqui #a_assinatura {
+    text-decoration: none;
+    color: white;
+}
+
+
+#container #p_aviso {
+    color: #8c8c8c;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+#container #p_aviso #a_saiba-mais {
+    text-decoration: none;
+    color: #0071eb;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    margin: 0 auto;
+    text-align: initial;
+    color: red;
+    background: rgba(0,0,0,.75);
+    padding-bottom: 1em;
+}
+
+footer #side-footer {
+    margin: 0 auto;
+}
+
+footer #side-footer #titulo-footer {
+    margin: 15px 0 5px 0;
+    color: #737373;
+    font-size:1.4rem
+}
+
+footer #side-footer .ul-lista-footer {
+    display: flex;
+    gap: 2em;
+    color: #737373;
+}
+
+footer #side-footer .ul-lista-footer .lista-footer{
+    color: #737373;
+}
+
+footer #side-footer .ul-lista-footer .lista-footer .item_lista-footer{
+    color: #737373;
+    text-decoration:none;
+}
+
+footer #side-footer .ul-lista-footer .lista-footer .item_lista-footer .p-footer{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 35px;
+    margin-right: 80px;
+    line-height: 0.5px;
+}
+
+footer #side-footer .botao-cabecalho-footer {
+    margin-top: 30px;
+    padding: 1em;
+    font-size: 5rem;
+    color: #737373;
+    background-color: transparent;
+    border: 0.1px solid #737373;
+    font-size: 1rem;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+
+footer #side-footer #footer-netflix {
+    margin-top: 10px;
+    color: red;
+}
