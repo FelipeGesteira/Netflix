@@ -1,0 +1,269 @@
+body {
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/585f466c-653d-46f4-af30-bbf18e0aafe9/BR-pt-20221128-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body #blur {
+    position: absolute;
+    background: rgba(0,0,0,.1);
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    height: 110%;
+    width: 100%;
+}
+
+
+#blur #cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+main #paragrafo-main {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+main h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+body #blur #cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+    margin: 1rem;
+    position: relative;
+    height: auto;
+    padding: 1em;
+}
+
+#blur #cabecalho #botoes-cabecalho {
+    width: 250px;
+    display: flex;
+}
+
+#blur #cabecalho #botoes-cabecalho #icone-globo {
+    margin-right: 3px;
+}
+
+#blur #cabecalho #botoes-cabecalho #idioma {
+    background-color: transparent;
+    border: 0.1px solid white;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+
+
+}
+
+#blur #cabecalho #botoes-cabecalho #entrar {
+    background-color: rgb(219, 6, 6);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 75px;
+    cursor: pointer;    
+}
+
+#blur #cabecalho #botoes-cabecalho .botao-cabecalho {
+    margin-right: 30px;
+
+}
+
+#blur #cabecalho #imagem-logo {
+    height: 7vh;
+    width: 10vw;
+    margin-left: 30px;
+}
+
+.botoes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.botoes .email-inp {
+    color: black;
+    padding: 1.50em;
+    width: 400px;
+}
+
+.botoes .botao-vamos {
+    color: white;
+    background-color: rgb(219, 6, 6);
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    height: 2.45em;
+
+}
+
+#especificacoes {
+    background: url(https://sportbuzz.uol.com.br/media/_versions/douglascosta_82934045_116411013185365_8270789263511275541_n_widelg.jpg);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 110%;
+    border-top: 8px solid #222;
+}
+
+#especificacoes .sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 70px;
+    text-align: initial;
+    max-width: 1100px;
+    margin: 50px auto;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+
+#especificacoes .sections .titulo-secao {
+    color: white;
+    font-size: 2.625rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+#especificacoes .sections .paragrafo-secao {
+    color: white;
+    font-size: 1.225rem;
+    font-weight: 400;
+}
+
+#especificacoes .sections .imagem-sections {
+    margin: 0 auto;
+}
+
+#especificacoes #perguntas-freq {
+    border-top: 8px solid #222;
+    padding: 1em 0 4em 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 8px solid #222;
+}
+
+#especificacoes #perguntas-freq #titulo_perguntas-freq {
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+#especificacoes #perguntas-freq #titulo_final-perguntas-freq {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 60px;
+    color: white;
+}
+
+#especificacoes #perguntas-freq .button_perguntas-freq {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 2.5px auto;
+    padding: 1em;
+    cursor: pointer;
+    background-color: #303030;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+footer {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: initial;
+    color: red;
+}
+
+#side-footer {
+    margin: 0 auto;
+}
+
+footer #side-footer #titulo-footer {
+    margin: 70px 0 20px 0;
+    color: #737373;
+    font-size:1.4rem
+}
+
+footer #side-footer .ul-lista-footer {
+    display: flex;
+    gap: 5em;
+    color: #737373;
+}
+
+footer #side-footer .ul-lista-footer .lista-footer{
+    color: #737373;
+}
+
+footer #side-footer .ul-lista-footer .lista-footer .item_lista-footer{
+    color: #737373;
+    text-decoration:none;
+}
+
+.p-footer{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 35px;
+    line-height: 0.5px;
+}
+
+footer #side-footer .botao-cabecalho-footer {
+    margin-top: 50px;
+    padding: 1em;
+    font-size: 5rem;
+    color: #737373;
+    background-color: transparent;
+    border: 0.1px solid #737373;
+    font-size: 1rem;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+
+footer #side-footer #footer-netflix {
+    margin-top: 30px;
+    color: red;
+}
